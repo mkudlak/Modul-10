@@ -1,5 +1,52 @@
+
 body {
     background-color: rgb(41, 35, 35);
     color: white;
     text-align: center;
 }
+#carousel {
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+	margin: 0 auto;
+	border: 5px solid #000;
+    padding: 0;
+    position: relative;
+}
+#carousel ul {
+    list-style-type: none;
+	width:  3000px;
+	margin: 0 auto;
+	padding: 0;
+}
+#carousel ul li {
+    float: left;
+}
+
+#carousel ul li img {
+    width: 600px;
+
+}
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    margin-top: -40px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+#arrow-left {
+    border-width: 20px 30px 20px 0;
+    border-color: transparent #fff transparent transparent;
+    left: 5px;
+    margin-left: 10px;
+}
+#arrow-right {
+    border-width: 20px 0 20px 30px;
+    border-color: transparent transparent transparent #fff;
+    right: 5px;
+    margin-right: 10px;
+}
+
